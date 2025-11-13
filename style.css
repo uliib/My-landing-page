@@ -150,9 +150,42 @@ section {
     display: block;
     max-width: 600px;
     height: auto;
-    margin: 40px auto;
+    margin: 40px auto 0;
 }
 
+footer {
+    text-align: center;
+}
+
+.botones-contacto {
+    display:grid;
+    gap: 8px;
+    display:block;
+    text-decoration: none;
+    border-radius: 999px;
+    text-align: right;
+    transition-timing-function: ease;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    font-size: 30px;
+
+}
+
+.whatsapp {
+    color: whitesmoke;
+}
+
+.email {
+    color: whitesmoke;
+}
+
+.linkedin {
+    color: whitesmoke;
+}
 @media (max-width: 768px) {
     .project-grid {
         grid-template-columns: 1fr;
