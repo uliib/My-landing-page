@@ -142,3 +142,10 @@ section {
 .portafolio {
     background-color: rgb(52,49,72);
 }
+
+.container svg {
+    display: block;
+    max-width: 600px;
+    height: auto;
+    margin: 40px auto;
+}
